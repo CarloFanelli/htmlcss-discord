@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --ds-dark: rgba(35, 39, 42, 1);
+    --ds-light: white;
+    --ds-navbar: rgba(49, 97, 224, 1);
+    --ds-soft: rgba(246, 246, 246, 1);
+    --ds-evidence: rgba(142, 161, 225, 1);
+
+
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+}
+p{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+}
+
+.p1 {
+    padding: 1rem;
+}
+
+.p04{
+    padding: 0.4rem;
+}
+
+
+
+.light {
+    background-color:var(--ds-light);
+}
+
+.dark {
+    background-color: var(--ds-soft);
+}
+
+.col-8 {
+    width: calc(100% / 12 * 8);
+}
+
+.col-4 {
+    width: calc(100% / 12 * 4);
+}
+
+.col-2{
+    width: calc(100% / 12 * 2);
+}
+
+.img_top {
+    width: 50%;
+    height: 200px;
+    margin: 3rem auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.w80 {
+    width: 80%;
+    margin: auto;
+    max-width: 1170px;
+}
+
+.menu {
+    padding: 1rem 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* #section DEBUG*/
+
+/* card is use to have a content space*/
+.card {
+    width: 90%;
+    margin: auto;
+    height: 300px;
+    background-color: #fff;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+
+/* #endsection DEBUG*/
+
+/* #section header*/
+
+header{
+    background-color: var(--ds-navbar);
+}
+
+.logo , .log{
+    width:20%;
+}
+
+.nav{
+    width:60%
+    text-align:center;
+}
+
+ul .flex > li{
+    flex-grow: 5;
+    justify-content: space-between;
+}
+
+.nav li{
+    list-style:none;
+
+}
+
+.nav a:any-link{
+    text-decoration: none;
+    color: var(--ds-light);
+
+}
+
+.log{
+    text-align: end;
+}
+
+/*#endsection header*/
+/* #section Footer*/
+footer {
+    background-color: var(--ds-dark);
+}
+
+.footer-top{
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-bottom{
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* #endsection Footer*/
