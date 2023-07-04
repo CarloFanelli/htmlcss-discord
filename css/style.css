@@ -183,7 +183,7 @@ ul .flex>li {
 
 /* #section main*/
 
-.evidence{
+.jumbotron{
     background-image: url(../img/jumbo.png);
     background-size: cover;
 }
@@ -200,6 +200,10 @@ ul .flex>li {
 
 .jumbo-text p{
     margin: 2rem;
+}
+
+button .fa-down-long{
+    padding: 0 0.3rem;
 }
 
 /* #endsection main */
