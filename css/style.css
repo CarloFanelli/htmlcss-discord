@@ -57,10 +57,22 @@ li {
     background-color: var(--ds-light);
 }
 
+/*
+.dark::before{
+    content: url(../img/wave.svg);
+}
+
+*/
+
 .dark {
     background-color: var(--ds-soft);
 
-    /*background-image: url(./img/wave.svg);*/
+    /*
+    background-image: url(../img/wave.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: repeat-y;
+    */
 }
 
 .btn-light {
@@ -254,8 +266,12 @@ button .fa-down-long {
     padding: 0 0.3rem;
 }
 
-#adventure {
-    background: url(./img/stars.svg);
+.adventure {
+    background-image:url(../img/stars.svg);
+    background-position: top;
+    background-size: inherit;
+    background-repeat: no-repeat;
+    line-height: 5rem;
 }
 
 /* #endsection main */
