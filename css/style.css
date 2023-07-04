@@ -76,8 +76,18 @@ p {
     margin: 1rem;
 }
 
+.btn-evidence {
+    background-color: var(--ds-evidence);
+    color: var(--ds-light);
+    border: 1px solid transparent;
+    border-radius: 5rem;
+    padding: 0.7rem 1rem;
+    margin: 1rem;
+}
+
 .btn-light a:any-link,
-.btn-dark a:any-link {
+.btn-dark a:any-link,
+.btn-evidence a:any-link {
     text-decoration: none;
     color: inherit;
 }
@@ -85,7 +95,16 @@ p {
 .row {
     margin-left: -1rem;
     margin-right: -1rem;
-    padding: 4rem 0;
+    padding: 7rem 0;
+}
+
+.row-center {
+    margin-left: -1rem;
+    margin-right: -1rem;
+    padding: 7rem 0;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .col-8 {
@@ -226,6 +245,10 @@ ul .flex>li {
 
 button .fa-down-long {
     padding: 0 0.3rem;
+}
+
+#adventure{
+    background-image: url(./img/stars.svg);
 }
 
 /* #endsection main */
